@@ -1,0 +1,26 @@
+# amiGhostAI
+> Ghost Code & Dependency Audit — AI-powered dead code scanner
+
+## What is amiGhostAI?
+amiGhostAI is a dual-engine AI code auditor that detects dead code, phantom dependencies, and security vulnerabilities. Two AI models (Grok + DeepSeek) analyze independently — findings are only delivered when both engines agree.
+
+## Features
+- Dead code detection (unused functions, orphaned exports, unreachable branches)
+- Phantom dependency scanning (unused packages bloating bundles)
+- Security ghost scan (hardcoded secrets, deprecated crypto, known CVEs)
+- Dockerfile & infrastructure audit
+- Bundle bloat analysis with lightweight alternatives
+
+## Architecture
+- Dual-engine: Grok 4.5 (xAI) + DeepSeek
+- Anti-confabulation: trigram-cosine concordance >= 0.45 required
+- Stateless: code snippets processed in real-time, never stored
+
+## Compliance
+- EU AI Act (Reg. 2024/1689) Art. 50 — limited-risk, full transparency
+- GDPR (Reg. 2016/679) — minimal data, no code storage
+
+## Links
+- Website: https://amighostai.com
+- API: https://amighostai-api-production.up.railway.app
+- Contact: hello@amighostai.com
